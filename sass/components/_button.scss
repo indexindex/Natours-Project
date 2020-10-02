@@ -1,4 +1,4 @@
-form.btn {
+.btn {
     &,
     &:link,
     &:visited {
@@ -26,8 +26,7 @@ form.btn {
         }
     }
 
-    &:active,
-    &:focus {
+    &:active {
         outline: none;
         transform: translateY(-1px);
         box-shadow: 0 .5rem 1rem rgba($color-black,.2);
